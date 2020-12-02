@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang-demo
+  description: des
+  annotations: 
+    github.com/project-slug: MrFatt/golang-demo
+    backstage.io/github-actions-id: MrFatt/golang-demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: MrFatt
